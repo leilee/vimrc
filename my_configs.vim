@@ -1,11 +1,10 @@
 " colorscheme
-if has('gui_running')
-    set background=light
-else
-    set background=dark
-endif
+set background=dark
 let g:solarized_termcolors=256
 colorscheme solarized
+
+" font
+set guifont=Fira\ Code\ Retina:h18
 
 " line number
 set relativenumber
